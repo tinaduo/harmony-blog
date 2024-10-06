@@ -118,7 +118,6 @@
 }
 
 
-
 /* animation */
 .container {
   opacity: 0;
@@ -148,4 +147,159 @@
 
 .postItem:hover {
   transform: scale(1.05);
+}
+
+/* For small devices (phones, 600px and below) */
+@media (max-width: 600px) {
+  .main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .postContainer {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .learnMoreText {
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .header {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .ValueCardContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .valueContainer {
+    padding-top: 20px;
+  }
+}
+
+/* For tablets (between 600px and 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .postContainer {
+    gap: 40px;
+  }
+
+  .postItem {
+    width: 48%;
+  }
+
+  .postImage {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .title {
+    font-size: 64px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .learnMoreText {
+    font-size: 22px;
+    padding: 14px;
+  }
+
+  .header {
+    font-size: 42px;
+  }
+
+  .ValueCardContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
+/* For large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  .main {
+    padding-left: 150px;
+    padding-right: 125px;
+  }
+
+  .postContainer {
+    gap: 65px;
+  }
+
+  .postItem {
+    width: 30%;
+  }
+
+  .title {
+    font-size: 120px;
+  }
+
+  .subtitle {
+    font-size: 36px;
+  }
+
+  .description {
+    width: 1066px;
+    font-size: 26px;
+  }
+
+  .learnMoreText {
+    font-size: 30px;
+    padding: 16px;
+  }
+
+  .header {
+    font-size: 56px;
+  }
+
+  .ValueCardContainer {
+    gap: 30px;
+    
+  }
+}
+
+/* Add hover effect for button and cards */
+.learnMoreText:hover, 
+.postItem:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.03);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }

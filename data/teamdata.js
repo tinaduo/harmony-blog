@@ -14,15 +14,15 @@ const teamData = [
   },
   {
     name: "Chelsea Woo",
-    role: "Frontend & Full Stack Developer",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis ex non leo scelerisque.",
+    role: "Lead Designer & Supporting Researcher",
+    description: "Chelsea is a passionate designer with a deep love for design history and user interface innovation. She’s always on the lookout for design inspiration, capturing screenshots or photos of anything that sparks her creativity. When she’s not designing, you’ll find Chelsea rabbit-holing into Spotify’s endless world of artists, songs, and genres, or exploring new ideas to expand her music taste.",
     image: "/assets/images/placeholder.jpg"
   },
   {
     name: "Annabelle Chen",
     role: "Frontend & Full Stack Developer",
     description: "Annabelle is a full-stack and front-end developer with a passion for creating seamless web applications. She specializes in technology like React, Node.js, and Express. In her free time, she enjoys laying in bed, playing VALORANT, and scrolling Instagram to look at cats.",
-    image: "/assets/images/annabelle.jpg" 
+    image: "/assets/images/annabelle.JPG" 
   },
   {
     name: "Keona Aguilar",
@@ -38,7 +38,7 @@ const teamData = [
   },
   {
     name: "Vitor Akiyama",
-    role: "Frontend & Full Stack Developer",
+    role: "Project Architect Lead & Full Stack Developer",
     description: "Vitor is a passionate web and application developer. He's focused on quality, sustainability and creating exceptional user experiences. Vitor has a natural attraction to the bleeding edge; he's always looking for exciting new technologies to propel projects forward. In his spare time, he likes playing guitar, video games and bouldering.",
     image: "/assets/images/vitor.jpg" 
   },

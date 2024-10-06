@@ -54,3 +54,9 @@
     word-wrap: break-word;
     width: 294px;
 }
+
+@media (min-width: 1024px) {
+    .card {
+
+    }
+}
