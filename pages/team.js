@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import NavBar from '../components/NavBar';
 import styles from '../styles/Team.module.css';
-import teamData from '../pages/assets/data/teamdata';
+import teamData from '../data/teamdata';
 import Footer from '@/components/Footer';
 
 export default function Team() {
