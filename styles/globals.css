@@ -2,3 +2,25 @@ html, *{
     background-color: #0a0a0a;
     margin: 0;
   }
+
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url('/fonts/SFPro.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url('/fonts/SF-Pro-Rounded-Regular.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ES Rebond Grotesque TRIAL';
+  src: url('/fonts/ESRebondGrotesqueTrial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
