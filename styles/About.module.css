@@ -7,7 +7,7 @@
 .aboutHeader {
     color: white;
     font-size: 123.20px;
-    font-family: 'ES Rebond Grotesque TRIAL';
+    font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
     font-weight: 400;
     word-wrap: break-word;
     margin-top: 15px;
@@ -27,7 +27,7 @@
 .description {
     color: white;
     font-size: 26px;
-    font-family: 'SF Pro';
+    font-family: 'SF Pro', sans-serif;
     font-weight: 400;
     margin-top: 35px;
     width: 1180px;
