@@ -1,0 +1,10 @@
+---
+title: "tina's wants to die"
+description: "the story of how tina died"
+image: "/images/week-1"
+date: "2024-10-01"
+---
+
+# My First Post
+
+This is the content of my first post. It can contain **Markdown** formatted text.

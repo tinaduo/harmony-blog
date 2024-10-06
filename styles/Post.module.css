@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postTitle {
+    color: white;
+    font-size: 123.20px;
+    font-family: ES Rebond Grotesque TRIAL;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+    width: 1180px;
+}
+
+.postImage {
+    display: flex;
+    align-items: center;
+    width: 1180px;
+    height: 425px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.postDescription {
+    color: white;
+    font-size: 26px;
+    font-family: SF Pro;
+    font-weight: 400;
+    margin-top: 35px;
+    width: 1180px;
+    margin-bottom: 134px;
+}
+
+.postContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

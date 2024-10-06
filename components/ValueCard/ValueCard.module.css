@@ -1,0 +1,56 @@
+.card {
+    width: 335px;
+    height: 369px;
+    padding-top: 37px;
+    padding-left: 37px;
+    background: #181716;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.titleContainer {
+    background: #181716;
+    align-self: stretch;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.number {
+    background: #181716;
+    align-self: stretch;
+    color: #737373;
+    font-size: 22.56px;
+    font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.title {
+    background: #181716;
+    align-self: stretch;
+    color: white;
+    font-size: 36.56px;
+    font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.description {
+    background: #181716;
+    align-self: stretch;
+    height: 182px;
+    color: #dcdcdc;
+    font-size: 22.56px;
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 294px;
+}

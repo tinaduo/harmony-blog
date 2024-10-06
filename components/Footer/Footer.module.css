@@ -1,0 +1,17 @@
+.FooterContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 356px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    border-top: 1px solid #787878;
+    margin-top: 193px;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    font-family: SF Pro Rounded;
+    font-weight: 400;
+    word-wrap: break-word
+}
