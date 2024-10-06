@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import styles from '../styles/Team.module.css';
 import teamData from '../data/teamdata';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 export default function Team() {
     const [isVisible, setIsVisible] = useState(false);
@@ -17,6 +18,13 @@ export default function Team() {
 
     return (
         <>
+            <Head>
+                <title>Harmony - Meet the Team</title>
+                <meta name="description" content="Harmony. Your Partner in Care." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charSet="UTF-8" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar />
             <div className={`${styles.main} ${isVisible ? styles.visible : ''}`}>
                 <div className={styles.headerContainer}>

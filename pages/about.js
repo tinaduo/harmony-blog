@@ -1,11 +1,19 @@
 import NavBar from '../components/NavBar';
 import styles from '../styles/About.module.css';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 export default function About() {
 
     return (
         <>
+            <Head>
+                <title>Harmony - About</title>
+                <meta name="description" content="Harmony. Your Partner in Care." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charSet="UTF-8" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar />
             <div className={styles.main}>
                 <div className={styles.headerContainer}>

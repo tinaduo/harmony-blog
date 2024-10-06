@@ -7,6 +7,7 @@ import NavBar from '../components/NavBar';
 import styles from '../styles/Home.module.css';
 import ValueCard from '@/components/ValueCard';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 export default function Home({ posts }) {
   const [containerVisible, setContainerVisible] = useState(false);
@@ -42,6 +43,13 @@ export default function Home({ posts }) {
 
   return (
     <>
+      <Head>
+        <title>Harmony</title>
+        <meta name="description" content="Harmony. Your Partner in Care." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <NavBar />
       <div className={styles.main}>
         <div className={`${styles.container} ${containerVisible ? styles.visible : ''}`}>
@@ -55,20 +63,20 @@ export default function Home({ posts }) {
         <div className={styles.valuesContainer}>
           <h1 className={styles.header}>What we Value</h1>
           <div className={`${styles.ValueCardContainer} ${valuesVisible ? styles.visible : ''}`}>
-            <ValueCard 
-              number="01" 
-              title="COMMUNITY" 
-              description="Harmony unites caregivers and families, creating a compassionate supportive space that strengthens bonds and lifts up underrepresented voices." 
+            <ValueCard
+              number="01"
+              title="COMMUNITY"
+              description="Harmony unites caregivers and families, creating a compassionate supportive space that strengthens bonds and lifts up underrepresented voices."
             />
-            <ValueCard 
-              number="02" 
-              title="CONNECTION" 
-              description="Harmony bridges the emotional gap between caregivers and loved ones, ensuring every moment of care is a shared connected experience." 
+            <ValueCard
+              number="02"
+              title="CONNECTION"
+              description="Harmony bridges the emotional gap between caregivers and loved ones, ensuring every moment of care is a shared connected experience."
             />
-            <ValueCard 
-              number="03" 
-              title="CARE" 
-              description="At its heart, Harmony empowers caregivers to deliver care with confidence, easing burdens so they can focus on what truly matters—nurturing others." 
+            <ValueCard
+              number="03"
+              title="CARE"
+              description="At its heart, Harmony empowers caregivers to deliver care with confidence, easing burdens so they can focus on what truly matters—nurturing others."
             />
           </div>
         </div>

@@ -25,7 +25,7 @@
 .teamHeader {
     color: white;
     font-size: 123.20px;
-    font-family: ES Rebond Grotesque TRIAL;
+    font-family: 'ES Rebond Grotesque TRIAL';
     font-weight: 400;
     word-wrap: break-word;
     margin-bottom: 50px;
@@ -44,7 +44,7 @@
 .imageDescription {
     color: white;
     font-size: 26px;
-    font-family: SF Pro;
+    font-family: 'SF Pro';
     font-weight: 400;
     margin-top: 35px;
     width: 1180px;
@@ -70,14 +70,14 @@
 .teammemberName {
     color: white;
     font-size: 42.78px;
-    font-family: SF Pro;
+    font-family: 'SF Pro';
     font-weight: 400;
 }
 
 .teammemberRole {
     color: #949494;
     font-size: 25.53px;
-    font-family: SF Pro;
+    font-family: 'SF Pro';
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -85,7 +85,7 @@
 .teammemberDescription {
     color: white;
     font-size: 20.39px;
-    font-family: SF Pro;
+    font-family: 'SF Pro';
     font-weight: 400;
     word-wrap: break-word;
     width: 517px;
