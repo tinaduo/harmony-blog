@@ -6,7 +6,7 @@
 .postContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 65px;
     justify-content: space-evenly;
@@ -35,6 +35,7 @@
     font-weight: 400;
     word-wrap: break-word;
     margin-top: 22px;
+    width: 562px;
 }
 
 .postDescription {
