@@ -3,7 +3,7 @@ const teamData = [
     name: "Tina Duong",
     role: "Project Manager & All Rounder",
     description: "Tina is the ultimate grinder & multitasker, known for her all-nighter work sessions and her uncanny ability to survive on minimal food or sleep. With a passion for matcha, monkeys, and a well-cooked beef dish, she approaches every challenge with a fierce determination that makes her unstoppable. Good at everything she tries, Tina has a special place in the hearts of Asian aunties everywhere!",
-    image: "/assets/images/tina.jpg" 
+    image: "/assets/images/tina.JPG" 
   },
   {
     name: "Max Shuyu Li",
