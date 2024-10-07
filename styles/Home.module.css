@@ -1,36 +1,38 @@
+/* Base Styles */
 .main {
   padding-left: 150px;
   padding-right: 125px;
 }
 
 .postContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 65px;
+  align-items: center;
   justify-content: space-between;
 }
 
-
 .postItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: start;
 }
 
 .postImage {
-  width: 562px;
-  height: 411px;
+  width: 100%;
+  max-width: 562px;
+  height: auto;
+  aspect-ratio: 4 / 3;
   border-radius: 24px;
   border: 1px #d9d9d9 solid;
   background-size: cover;
   background-position: center;
 }
 
+/* Responsive Typography */
 .postTitle {
   color: white;
-  font-size: 26.56px;
+  font-size: 2rem;
   font-family: 'SF Pro', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
@@ -39,17 +41,16 @@
 
 .postDescription {
   color: #9c9c9c;
-  font-size: 17.56px;
+  font-size: 1rem;
   font-family: 'SF Pro', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
 
-
-/* header section */
+/* Header Section */
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto auto auto;
   padding-right: 244px;
   margin-top: 170px;
   margin-bottom: 152px;
@@ -57,7 +58,7 @@
 
 .title {
   color: white;
-  font-size: 123.20px;
+  font-size: 6vw; /* Responsive font size for title */
   font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
@@ -66,7 +67,7 @@
 
 .subtitle {
   color: white;
-  font-size: 35.56px;
+  font-size: 2vw;
   font-family: 'SF Pro', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
@@ -74,9 +75,8 @@
 }
 
 .description {
-  width: 1066px;
   color: white;
-  font-size: 26px;
+  font-size: 1.5vw;
   font-family: 'SF Pro', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
@@ -86,7 +86,7 @@
 .learnMoreText {
   width: fit-content;
   color: white;
-  font-size: 29.69px;
+  font-size: 1.8rem;
   font-family: 'SF Pro', sans-serif;
   font-weight: 400;
   padding: 16px;
@@ -95,8 +95,7 @@
   text-decoration: none;
 }
 
-/* value header */
-
+/* Value Header */
 .valueContainer {
   padding-top: 62px;
 }
@@ -104,7 +103,7 @@
 .header {
   color: #FFF;
   font-family: "ES Rebond Grotesque TRIAL", sans-serif;
-  font-size: 54.561px;
+  font-size: 3.5vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -112,194 +111,109 @@
 }
 
 .ValueCardContainer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
   margin-bottom: 80px;
 }
 
-
-/* animation */
-.container {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.container.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.ValueCardContainer {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.ValueCardContainer.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.postItem {
-  transition: transform 0.6s ease;
-}
-
-.postItem:hover {
-  transform: scale(1.05);
-}
-
-/* For small devices (phones, 600px and below) */
-@media (max-width: 600px) {
+/* Media Queries for Different Screen Sizes */
+@media (max-width: 1200px) {
   .main {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .postContainer {
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-  }
-
-  .title {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .subtitle {
-    font-size: 22px;
-    text-align: center;
-  }
-
-  .description {
-    width: 100%;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 25px;
-  }
-
-  .learnMoreText {
-    font-size: 18px;
-    padding: 12px;
-    text-align: center;
-    display: inline-block;
-    margin: 0 auto;
-  }
-
-  .header {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .ValueCardContainer {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .valueContainer {
-    padding-top: 20px;
-  }
-}
-
-/* For tablets (between 600px and 1024px) */
-@media (min-width: 600px) and (max-width: 1024px) {
-  .main {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  .postContainer {
-    gap: 40px;
-  }
-
-  .postItem {
-    width: 48%;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .postImage {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
+    max-width: 450px;
   }
 
-  .title {
-    font-size: 64px;
-  }
-
-  .subtitle {
-    font-size: 28px;
-  }
-
-  .description {
-    width: 100%;
-    font-size: 20px;
-  }
-
-  .learnMoreText {
-    font-size: 22px;
-    padding: 14px;
-  }
-
-  .header {
-    font-size: 42px;
-  }
-
-  .ValueCardContainer {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
+  .container {
+    padding-right: 150px;
+    margin-top: 120px;
+    margin-bottom: 100px;
   }
 }
 
-/* For large devices (desktops, 1024px and up) */
-@media (min-width: 1024px) {
+@media (max-width: 992px) {
   .main {
-    padding-left: 150px;
-    padding-right: 125px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .postContainer {
-    gap: 65px;
+    grid-template-columns: 1fr;
   }
 
-  .postItem {
-    width: 30%;
+  .container {
+    padding-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 
   .title {
-    font-size: 120px;
-  }
-
-  .subtitle {
-    font-size: 36px;
-  }
-
-  .description {
-    width: 1066px;
-    font-size: 26px;
-  }
-
-  .learnMoreText {
-    font-size: 30px;
-    padding: 16px;
-  }
-
-  .header {
-    font-size: 56px;
-  }
-
-  .ValueCardContainer {
-    gap: 30px;
-    
+    font-size: 8vw;
   }
 }
 
-/* Add hover effect for button and cards */
-.learnMoreText:hover, 
-.postItem:hover {
-  background-color: #f0f0f0;
-  transform: scale(1.03);
-  transition: transform 0.3s ease, background-color 0.3s ease;
+@media (max-width: 768px) {
+  .main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .postImage {
+    max-width: 100%;
+  }
+
+  .subtitle,
+  .description,
+  .header,
+  .learnMoreText {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .postContainer {
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 10vw;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 3.5vw;
+  }
+
+  .learnMoreText {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .postContainer {
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 12vw;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 3vw;
+  }
+
+  .learnMoreText {
+    padding: 10px;
+    font-size: 2.5vw;
+  }
+
+  .container {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
 }

@@ -2,13 +2,13 @@ const teamData = [
   {
     name: "Tina Duong",
     role: "Project Manager & All Rounder",
-    description: "tina is sad 24/7.",
-    image: "/assets/images/placeholder.jpg" 
+    description: "Tina is the ultimate grinder & multitasker, known for her all-nighter work sessions and her uncanny ability to survive on minimal food or sleep. With a passion for matcha, monkeys, and a well-cooked beef dish, she approaches every challenge with a fierce determination that makes her unstoppable. Good at everything she tries, Tina has a special place in the hearts of Asian aunties everywhere!",
+    image: "/assets/images/tina.jpg" 
   },
   {
     name: "Max Shuyu Li",
     role: "Project Manager & Full Stack Developer",
-    description: "Max is a project manager and full stack web developer. He partakes in league of legends.",
+    description: "Max is a project manager and full stack web developer with a passion for programming and a mischievous side. Always bringing a goofy, positive attitude, he’s also part of a hackathon team, where he’s constantly pushing his skills and tackling new challenges. Known for his love of chunky shoes and streetwear style, Max occasionally works with rich Asian households, adding a unique flair to his versatile skill set.",
 
     image: "/assets/images/max.jpg"
   },
@@ -16,7 +16,7 @@ const teamData = [
     name: "Chelsea Woo",
     role: "Lead Designer & Supporting Researcher",
     description: "Chelsea is a passionate designer with a deep love for design history and user interface innovation. She’s always on the lookout for design inspiration, capturing screenshots or photos of anything that sparks her creativity. When she’s not designing, you’ll find Chelsea rabbit-holing into Spotify’s endless world of artists, songs, and genres, or exploring new ideas to expand her music taste.",
-    image: "/assets/images/placeholder.jpg"
+    image: "/assets/images/chelsea.png"
   },
   {
     name: "Annabelle Chen",
@@ -27,7 +27,7 @@ const teamData = [
   {
     name: "Keona Aguilar",
     role: "Lead Researcher & Supporting Designer",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin justo in varius volutpat.",
+    description: "Keona is a designer and researcher who brings a passion for community-focused design to everything she creates. She’s known for making friends with every living thing—except birds, which she avoids at all costs. A true shoe lover, she has two racks full of kicks and a penchant for cafe study sessions at Breka, always accompanied by an iced milk.",
     image: "/assets/images/keona.jpg" 
   },
   {

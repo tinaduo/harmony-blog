@@ -5,12 +5,11 @@
 }
 
 .postTitle {
-    color: white;
-    font-size: 123.20px;
+    color: #ffffff;
+    font-size: 80px;
     font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
     font-weight: 400;
     word-wrap: break-word;
-    margin-bottom: 50px;
     width: 1180px;
 }
 
@@ -21,16 +20,17 @@
     height: 425px;
     border-radius: 25px;
     border: 1px solid white;
+    object-fit: cover;
 }
 
 .postDescription {
-    color: white;
+    color: #ffffff81;
     font-size: 26px;
     font-family: 'SF Pro', sans-serif;
     font-weight: 400;
-    margin-top: 35px;
+    margin-top: 5px;
+    margin-bottom: 35px;
     width: 1180px;
-    margin-bottom: 134px;
 }
 
 .postContainer {
@@ -49,23 +49,25 @@
     margin-bottom: 134px;
 }
 
-@font-face {
-  font-family: 'SF Pro';
-  src: url('/fonts/SFPro.otf') format('opentype');
-  font-weight: normal; 
-  font-style: normal; 
+.postContent h2 {
+  margin-top: 40px; /* Space above h2 */
+  margin-bottom: 20px; /* Space below h2 */
 }
 
-@font-face {
-  font-family: 'SF Pro Rounded';
-  src: url('/fonts/SF-Pro-Rounded-Regular.otf') format('opentype');
-  font-weight: normal; 
-  font-style: normal;
+.postContent h3 {
+  margin-top: 30px; /* Space above h3 */
+  margin-bottom: 15px; /* Space below h3 */
 }
 
-@font-face {
-  font-family: 'ES Rebond Grotesque TRIAL';
-  src: url('/fonts/ESRebondGrotesqueTRIAL-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+.postContent p {
+  margin-bottom: 15px; /* Space below paragraphs */
+}
+
+.postContent ul {
+  margin-left: 20px; /* Indent for lists */
+  margin-bottom: 15px; /* Space below lists */
+}
+
+.postContent a {
+  color: #D887F9;
 }

@@ -9,7 +9,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 65px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 

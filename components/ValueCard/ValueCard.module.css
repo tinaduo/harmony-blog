@@ -1,62 +1,86 @@
+/* Base styles for the card */
 .card {
-    width: 335px;
-    height: 369px;
-    padding-top: 37px;
-    padding-left: 37px;
-    background: #181716;
-    border-radius: 20px;
-    overflow: hidden;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  width: 100%;
+  max-width: 335px;
+  height: 260px;
+  padding: 37px;
+  background: #181716;
+  border-radius: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  justify-items: start;
 }
 
+/* Title container */
 .titleContainer {
-    background: #181716;
-    align-self: stretch;
-    height: 74px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 6px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 6px;
+background: #181716;
 }
 
+/* Number styling */
 .number {
-    background: #181716;
-    align-self: stretch;
-    color: #737373;
-    font-size: 22.56px;
-    font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
+  color: #737373;
+background: #181716;
+  font-size: 1.4rem;
+  font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
+/* Title styling */
 .title {
-    background: #181716;
-    align-self: stretch;
-    color: white;
-    font-size: 36.56px;
-    font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
-    font-weight: 500;
-    word-wrap: break-word;
+  color: white;
+  font-size: 2rem;
+  font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+   background: #181716;
 }
 
+/* Description styling */
 .description {
-    background: #181716;
-    align-self: stretch;
-    height: 182px;
-    color: #dcdcdc;
-    font-size: 22.56px;
-    font-family: 'SF Pro', sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
-    width: 294px;
+  color: #dcdcdc;
+  font-size: 1.4rem;
+  font-family: 'SF Pro', sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  max-width: 100%;
+background: #181716;
 }
 
-@media (min-width: 1024px) {
-    .card {
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    padding: 20px;
+  }
 
-    }
+  .number,
+  .title,
+  .description {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 15px;
+  }
+
+  .number {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
 }

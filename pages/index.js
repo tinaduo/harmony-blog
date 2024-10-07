@@ -56,7 +56,7 @@ export default function Home({ posts }) {
           <div className={styles.title}>Harmony</div>
           <div className={styles.subtitle}>Your partner in care!</div>
           <div className={styles.description}>
-            Harmony empowers caregivers with AI-driven tools that ease daily burdens, foster connection, and support underrepresented communities. Simple, compassionate care at your fingertips.
+            Harmony empowers caregivers with AI-driven tools that ease daily burdens, foster connection, <br /> and support underrepresented communities. Simple, compassionate care at your fingertips.
           </div>
           <Link className={styles.learnMoreText} href='/about'>Learn More!</Link>
         </div>
