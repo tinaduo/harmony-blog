@@ -1,7 +1,9 @@
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .postTitle {
@@ -10,13 +12,12 @@
     font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
     font-weight: 400;
     word-wrap: break-word;
-    width: 1180px;
 }
 
 .postImage {
     display: flex;
     align-items: center;
-    width: 1180px;
+    width: 100%;
     height: 425px;
     border-radius: 25px;
     border: 1px solid white;
@@ -30,33 +31,34 @@
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 35px;
-    width: 1180px;
 }
 
 .postContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .postContent {
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'SF Pro', sans-serif;
     font-weight: 400;
     margin-top: 35px;
-    width: 1180px;
-    margin-bottom: 134px;
 }
 
 .postContent h2 {
+  font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
+  font-weight: normal;
   margin-top: 40px; /* Space above h2 */
   margin-bottom: 20px; /* Space below h2 */
 }
 
 .postContent h3 {
+  font-family: 'ES Rebond Grotesque TRIAL', sans-serif;
+  font-weight: normal;
   margin-top: 30px; /* Space above h3 */
-  margin-bottom: 15px; /* Space below h3 */
+  margin-bottom: 5px; /* Space below h3 */
 }
 
 .postContent p {
@@ -70,4 +72,14 @@
 
 .postContent a {
   color: #D887F9;
+}
+
+@media (max-width: 800px) {
+    .main {
+        padding-left: 50px; 
+        padding-right: 50px;
+    }
+
+    .postImage{
+    }
 }

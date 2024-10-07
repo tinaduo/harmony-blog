@@ -1,7 +1,6 @@
 /* NavBar styles */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.14);
   padding: 30px 20px;
@@ -31,13 +30,12 @@
   text-decoration: none;
   width: min-content;
   text-wrap: nowrap;
+
 }
 
 .navbar-link:hover {
   color: #888; /* Hover color for the links */
 }
-
-
 
 .logo {
   color: white;
@@ -46,7 +44,6 @@
   font-weight: 400;
   text-decoration: none;
   margin-left: 50px;
-  margin-right: 340px;
   text-wrap: nowrap;
 }
 
@@ -57,13 +54,12 @@
   font-weight: 400;
   text-decoration: none;
   cursor: pointer;
-  width: 500px;
+  margin-right: 35px;
+  margin-left: 35px;
 }
 
 .links {
   display: flex;
-  width: 500px;
-  gap: 106px;
-  margin-right: 481px;
   text-wrap: nowrap;
+  justify-content: flex-end;
 }

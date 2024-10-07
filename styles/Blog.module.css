@@ -1,6 +1,9 @@
 .main {
+    display: flex;
+    flex-direction: column;
     padding-left: 150px;
     padding-right: 125px;
+    align-items: flex-start;
 }
 
 .postContainer {
@@ -68,11 +71,22 @@
 }
 
 .description {
-    width: 1066px;
     color: white;
     font-size: 26px;
     font-family: 'SF Pro', sans-serif;
     font-weight: 400;
     word-wrap: break-word;
     margin-bottom: 42px;
+}
+
+
+@media (max-width: 800px) {
+    .main {
+        padding-left: 50px; 
+        padding-right: 50px;
+    }
+
+    .postImage{
+        width: auto;
+    }
 }

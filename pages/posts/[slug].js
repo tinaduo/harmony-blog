@@ -20,6 +20,7 @@ export default function Post({ frontMatter, content }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
+      <div className={styles.main}>
       <div className={styles.postContainer}>
         <h1 className={styles.postTitle}>{frontMatter.title}</h1>
         <p className={styles.postDescription}>{frontMatter.description}</p>
@@ -37,6 +38,7 @@ export default function Post({ frontMatter, content }) {
           className={styles.postContent}
           dangerouslySetInnerHTML={{ __html: content }}
         />
+      </div>
       </div>
       <Footer />
     </>
