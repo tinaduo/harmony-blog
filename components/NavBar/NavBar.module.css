@@ -23,43 +23,31 @@
 
 }
 
-.link {
-  color: white;
-  font-size: 1rem;
-  font-family: 'SF Pro', sans-serif;
-  text-decoration: none;
-  width: min-content;
-  text-wrap: nowrap;
-
-}
-
 .navbar-link:hover {
   color: #888; /* Hover color for the links */
 }
 
 .logo {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'SF Pro Rounded';
   font-weight: 400;
   text-decoration: none;
-  margin-left: 50px;
   text-wrap: nowrap;
 }
 
 .link {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'SF Pro Rounded';
   font-weight: 400;
   text-decoration: none;
   cursor: pointer;
-  margin-right: 35px;
-  margin-left: 35px;
 }
 
 .links {
   display: flex;
   text-wrap: nowrap;
   justify-content: flex-end;
+  gap: 15px;
 }
