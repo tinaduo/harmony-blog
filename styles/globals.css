@@ -4,6 +4,10 @@ html, *{
     font-family: 'SF Pro', sans-serif;
   }
 
+p {
+  font-size: 12px;
+}
+
 
 @font-face {
   font-family: 'SF Pro';
