@@ -2,7 +2,7 @@
 title: "Week 2 - Oct 2. 2024"
 description: "Chelsea Woo"
 image: "/assets/images/week-2.gif"
-date: "2024-10-01"
+date: "2024-10-02"
 ---
 
 ### Introduction

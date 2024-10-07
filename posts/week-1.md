@@ -2,7 +2,7 @@
 title: "Week 1 Team Update: Progress, Research, and... a Chair Incident"
 description: "Max Shuyu Li"
 image: "/assets/images/week-1.gif"
-date: "2024-10-01"
+date: "2024-9-28"
 ---
 
 This week was a whirlwind of ideation, research, and some unexpected stress-testing of furniture (more on that later). Week 1 has officially wrapped up, and we’ve got plenty of exciting developments to share!
