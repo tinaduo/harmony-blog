@@ -8,7 +8,7 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>Harmony - About</title>
+                <title>Harmony Blog - About</title>
                 <meta name="description" content="Harmony. Your Partner in Care." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="UTF-8" />

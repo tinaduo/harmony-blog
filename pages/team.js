@@ -19,7 +19,7 @@ export default function Team() {
     return (
         <>
             <Head>
-                <title>Harmony - Meet the Team</title>
+                <title>Harmony Blog - Meet the Team</title>
                 <meta name="description" content="Harmony. Your Partner in Care." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="UTF-8" />

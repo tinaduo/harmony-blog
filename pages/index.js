@@ -44,7 +44,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>Harmony</title>
+        <title>Harmony Blog</title>
         <meta name="description" content="Harmony. Your Partner in Care." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
